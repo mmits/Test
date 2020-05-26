@@ -3,7 +3,21 @@
 <html>
 <body>
 
-<input type="text" id="myText" value="Some text...">
+<input type="text" id="att1" value="Some text...">
+
+<input type="text" id="att2" value="Some text...">
+
+<input type="text" id="att3" value="Some text...">
+
+<input type="text" id="att4" value="Some text...">
+
+<input type="text" id="att5" value="Some text...">
+
+<input type="text" id="att6" value="Some text...">
+
+<input type="text" id="att7" value="Some text...">
+
+<input type="text" id="att8" value="Some text...">
 
 <button onclick="myFunction()">Try it</button>
 
