@@ -1,18 +1,9 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/AthanGriv/Test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-<!DOCTYPE html>
 <html>
 <body>
 
-<h3>A demonstration of how to access a Text Field</h3>
-
 <input type="text" id="myText" value="Some text...">
-
-<p>Click the "Try it" button to get the text in the text field.</p>
 
 <button onclick="myFunction()">Try it</button>
 
@@ -27,7 +18,6 @@ function myFunction() {
 
 </body>
 </html>
-
 
 ### Support or Contact
 
