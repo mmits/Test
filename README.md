@@ -30,6 +30,40 @@ function myFunction() {
 }
 </script>
 
+<script>
+package com.mycompany.mavenproject2;
+ 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import weka.classifiers.Classifier;
+import weka.classifiers.evaluation.Evaluation;
+import weka.classifiers.functions.MultilayerPerceptron;
+import weka.core.Instances;
+import weka.core.SerializationHelper;
+import weka.core.converters.ConverterUtils.DataSource;
+
+import java.util.ArrayList;
+import weka.core.Attribute;
+import weka.core.DenseInstance;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.Normalize;
+
+String rootPath="/Users/athan/Desktop/WP"; 
+Classifier cls = (Classifier) weka.core.SerializationHelper.read(rootPath+"model1.model");
+
+Instances originalTrain= //load or create Instances to predict
+
+int s1=0;  
+
+double value=cls.classifyInstance(originalTrain.instance(s1));
+
+String prediction=originalTrain.classAttribute().value((int)value); 
+
+System.out.println("The predicted value of instance "+
+                    Integer.toString(s1)+
+                    ": "+prediction); 
+</script>
+
 </body>
 </html>
 
