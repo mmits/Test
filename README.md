@@ -4,33 +4,30 @@ You can use the [editor on GitHub](https://github.com/AthanGriv/Test/edit/master
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<!DOCTYPE html>
+<html>
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h3>A demonstration of how to access a Text Field</h3>
 
-```markdown
-Syntax highlighted code block
+<input type="text" id="myText" value="Some text...">
 
-# Header 1
-## Header 2
-### Header 3
+<p>Click the "Try it" button to get the text in the text field.</p>
 
-- Bulleted
-- List
+<button onclick="myFunction()">Try it</button>
 
-1. Numbered
-2. List
+<p id="demo"></p>
 
-**Bold** and _Italic_ and `Code` text
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
 
-[Link](url) and ![Image](src)
-```
+</body>
+</html>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AthanGriv/Test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
